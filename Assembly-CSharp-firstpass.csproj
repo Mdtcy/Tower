@@ -85,6 +85,7 @@
      <Compile Include="Assets\Plugins\Hell Tap Entertainment\PoolKit\Despawner\DespawnerEventRaycast2D.cs" />
      <Compile Include="Assets\Plugins\Hell Tap Entertainment\PoolKit\Despawner\DespawnerEventRaycast3D.cs" />
      <Compile Include="Assets\Plugins\Hell Tap Entertainment\PoolKit\Spawner\Spawner.cs" />
+     <None Include="Assets\Plugins\UniRx\ReadMe.txt" />
      <None Include="Assets\Plugins\Sirenix\Assemblies\link.xml" />
      <None Include="Assets\Plugins\Sirenix\Assemblies\Sirenix.Serialization.Config.xml" />
      <None Include="Assets\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Editor.xml" />
@@ -351,6 +352,15 @@
  <Reference Include="UnityEngine.XRModule">
  <HintPath>D:/3DMGAME/2019.4.14f1c1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
  </Reference>
+ <Reference Include="Sirenix.OdinInspector.Attributes">
+ <HintPath>D:/UnityProjects/Tower/Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Attributes.dll</HintPath>
+ </Reference>
+ <Reference Include="Sirenix.OdinInspector.Editor">
+ <HintPath>D:/UnityProjects/Tower/Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Sirenix.Serialization.Config">
+ <HintPath>D:/UnityProjects/Tower/Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.Config.dll</HintPath>
+ </Reference>
  <Reference Include="Sirenix.Serialization">
  <HintPath>D:/UnityProjects/Tower/Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.dll</HintPath>
  </Reference>
@@ -360,14 +370,20 @@
  <Reference Include="Sirenix.Utilities.Editor">
  <HintPath>D:/UnityProjects/Tower/Assets/Plugins/Sirenix/Assemblies/Sirenix.Utilities.Editor.dll</HintPath>
  </Reference>
- <Reference Include="Sirenix.OdinInspector.Editor">
- <HintPath>D:/UnityProjects/Tower/Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Editor.dll</HintPath>
+ <Reference Include="Zenject.ReflectionBaking.Mono.Cecil">
+ <HintPath>D:/UnityProjects/Tower/Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Lib/Zenject.ReflectionBaking.Mono.Cecil.dll</HintPath>
  </Reference>
- <Reference Include="Sirenix.OdinInspector.Attributes">
- <HintPath>D:/UnityProjects/Tower/Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Attributes.dll</HintPath>
+ <Reference Include="Zenject.ReflectionBaking.Mono.Cecil.Mdb">
+ <HintPath>D:/UnityProjects/Tower/Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Lib/Zenject.ReflectionBaking.Mono.Cecil.Mdb.dll</HintPath>
  </Reference>
- <Reference Include="Sirenix.Serialization.Config">
- <HintPath>D:/UnityProjects/Tower/Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.Config.dll</HintPath>
+ <Reference Include="Zenject.ReflectionBaking.Mono.Cecil.Pdb">
+ <HintPath>D:/UnityProjects/Tower/Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Lib/Zenject.ReflectionBaking.Mono.Cecil.Pdb.dll</HintPath>
+ </Reference>
+ <Reference Include="Zenject.ReflectionBaking.Mono.Cecil.Rocks">
+ <HintPath>D:/UnityProjects/Tower/Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Lib/Zenject.ReflectionBaking.Mono.Cecil.Rocks.dll</HintPath>
+ </Reference>
+ <Reference Include="Zenject-usage">
+ <HintPath>D:/UnityProjects/Tower/Assets/Plugins/Zenject/Source/Usage/Zenject-usage.dll</HintPath>
  </Reference>
  <Reference Include="mscorlib">
  <HintPath>D:/3DMGAME/2019.4.14f1c1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -725,6 +741,22 @@
  </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Sirenix.OdinInspector.Modules.UnityMathematics.csproj">
+      <Project>{CA309B35-C402-2ED7-8959-F226324FDF48}</Project>
+      <Name>Sirenix.OdinInspector.Modules.UnityMathematics</Name>
+    </ProjectReference>
+    <ProjectReference Include="Zenject-Editor.csproj">
+      <Project>{64E5A455-B2C7-2BBB-A83B-B1F8520CED5D}</Project>
+      <Name>Zenject-Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="UniRx.csproj">
+      <Project>{E3D3D07E-A8D0-17D9-1753-6A48AE15962D}</Project>
+      <Name>UniRx</Name>
+    </ProjectReference>
+    <ProjectReference Include="Zenject-ReflectionBaking-Editor.csproj">
+      <Project>{2ADE7F41-462C-CD14-F38D-9E59BAE710FE}</Project>
+      <Name>Zenject-ReflectionBaking-Editor</Name>
+    </ProjectReference>
     <ProjectReference Include="Sirenix.OdinInspector.CompatibilityLayer.Editor.csproj">
       <Project>{09A4B8DD-2E81-DF37-01EB-BF655A9650E5}</Project>
       <Name>Sirenix.OdinInspector.CompatibilityLayer.Editor</Name>
@@ -733,9 +765,13 @@
       <Project>{C726C615-6FCF-4C9D-4586-D812AF783C9C}</Project>
       <Name>Sirenix.OdinInspector.CompatibilityLayer</Name>
     </ProjectReference>
-    <ProjectReference Include="Sirenix.OdinInspector.Modules.UnityMathematics.csproj">
-      <Project>{CA309B35-C402-2ED7-8959-F226324FDF48}</Project>
-      <Name>Sirenix.OdinInspector.Modules.UnityMathematics</Name>
+    <ProjectReference Include="Zenject-PoolMonitor-Editor.csproj">
+      <Project>{16FF6AD4-A164-4F91-F4B3-D3B544C20D35}</Project>
+      <Name>Zenject-PoolMonitor-Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Zenject.csproj">
+      <Project>{8A322C3D-B85B-39CB-069E-5CF60C19F82E}</Project>
+      <Name>Zenject</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
