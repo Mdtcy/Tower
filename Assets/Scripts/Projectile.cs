@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using Zenject;
 
 public class Projectile : MonoBehaviour
@@ -9,26 +7,43 @@ public class Projectile : MonoBehaviour
     private float speed;
 
     [SerializeField]
-    private FindTarget findTarget;
+    public int damage;
 
-    private GameObject target;
+    private Enemy targetEnemy;
 
     [Inject]
     readonly SignalBus signalBus;
 
-    private void OnTriggerEnter2D(Collider2D obj)
+    public void Init(Enemy enemy)
     {
-        signalBus.Fire(new OnCollideSignal());
+        targetEnemy = enemy;
     }
 
+    private void OnTriggerEnter2D(Collider2D obj)
+    {
+        if (obj.GetComponent<Enemy>()!=null)
+        {
+            signalBus.Fire(new CollideSignal(this, obj.GetComponent<Enemy>()));
+        }
+    }
+
+    private Vector3 lastDirection;
     void Update()
     {
         // TODO 如果目标毁灭，中断，这里需要追加判断
-        if (target == null)
+        if (targetEnemy == null || targetEnemy.IsDie)
         {
-            target = findTarget.GetRandomTarget();
+            transform.position = Vector3.MoveTowards(transform.position, transform.position+ lastDirection *100, speed);
         }
+        else
+        {
+            lastDirection      = (targetEnemy.transform.position - transform.position).normalized;
+            transform.position = Vector3.MoveTowards(transform.position, targetEnemy.transform.position, speed);
+        }
+    }
 
-        transform.position = Vector3.MoveTowards(transform.position, target.transform.position, speed);
+    public void DestroySelf()
+    {
+        Destroy(gameObject);
     }
 }

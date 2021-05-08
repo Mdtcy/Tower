@@ -15,6 +15,18 @@ public class Enemy : MonoBehaviour
     [SerializeField]
     private float speed;
 
+    [SerializeField]
+    private int hp;
+
+    [Inject]
+    readonly SignalBus signalBus;
+
+    public bool IsDie
+    {
+        get;
+        private set;
+    }
+
     private GameObject targetTower;
 
     #endregion
@@ -34,5 +46,28 @@ public class Enemy : MonoBehaviour
         }
 
         transform.position = Vector3.MoveTowards(transform.position, targetTower.transform.position, speed);
+    }
+
+    public void TakeDamage(int damage)
+    {
+        if (IsDie)
+        {
+            return;
+        }
+
+        hp -= damage;
+
+        if (hp <= 0)
+        {
+            Die();
+        }
+    }
+
+    private void Die()
+    {
+        IsDie = true;
+        signalBus.Fire(new KillEnemySignal(this));
+        EnemySet.RemoveToList(gameObject);
+        Destroy(gameObject);
     }
 }

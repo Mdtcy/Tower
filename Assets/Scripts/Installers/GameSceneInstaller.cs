@@ -18,12 +18,20 @@ public class GameSceneInstaller : MonoInstaller
         EnemySet.Initialize();
         TowerSet.Initialize();
 
-        SignalBusInstaller.Install(Container);
-        Container.DeclareSignal<OnCollideSignal>();
-
-        Container.BindInterfacesTo<SignalProcesser>().AsSingle();
+        InstallSignal();
 
         Container.BindInstance(EnemySet).WithId(ZenjectId.EnemySet);
         Container.BindInstance(TowerSet).WithId(ZenjectId.TowerSet);
     }
+
+    private void InstallSignal()
+    {
+        SignalBusInstaller.Install(Container);
+
+        Container.DeclareSignal<CollideSignal>();
+        Container.DeclareSignal<KillEnemySignal>();
+
+        Container.BindInterfacesTo<SignalProcesser>().AsSingle();
+    }
+
 }

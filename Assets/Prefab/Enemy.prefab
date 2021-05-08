@@ -50,6 +50,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   findTarget: {fileID: 6345786391551018388}
   speed: 0.01
+  hp: 100
 --- !u!114 &6345786391551018388
 MonoBehaviour:
   m_ObjectHideFlags: 0

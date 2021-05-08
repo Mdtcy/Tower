@@ -1,29 +1,41 @@
 ﻿using System;
-using System.Collections;
-using System.Collections.Generic;
+using Assets.Scripts;
 using UnityEngine;
 using Zenject;
 
 public class SignalProcesser : IInitializable, IDisposable
 {
-    // [Inject]
-    // private  OnCollideSignal onCollideSignal;
     [Inject]
     readonly SignalBus       signalBus;
 
+
     public void Initialize()
     {
-        Debug.Log($"VAR initt SignalProcesser");
-        signalBus.Subscribe<OnCollideSignal>(OnCollideSignal);
+        signalBus.Subscribe<CollideSignal>(OnCollideSignal);
+        signalBus.Subscribe<KillEnemySignal>(OnKillEnemy);
     }
 
     public void Dispose()
     {
-        signalBus.Unsubscribe<OnCollideSignal>(OnCollideSignal);
+        signalBus.Unsubscribe<CollideSignal>(OnCollideSignal);
+        signalBus.Unsubscribe<KillEnemySignal>(OnKillEnemy);
+
     }
 
-    private void OnCollideSignal()
+    private void OnCollideSignal(CollideSignal collideSignal)
     {
-        Debug.Log($"VAR OnCollideSignal");
+        // 敌人受到伤害
+        collideSignal.Enemy.TakeDamage(collideSignal.Projectile.damage);
+
+        // 子弹销毁
+        collideSignal.Projectile.DestroySelf();
+
+        // todo 子弹打到的特效
     }
+
+    private void OnKillEnemy(KillEnemySignal killEnemySignal)
+    {
+        Debug.Log($"VAR OnKillEnemy");
+    }
+
 }

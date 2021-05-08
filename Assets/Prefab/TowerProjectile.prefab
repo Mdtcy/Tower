@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 5375642882072934332}
   - component: {fileID: 3414628525896966209}
-  - component: {fileID: -6592665736137441944}
   - component: {fileID: -5409880624849505996}
   - component: {fileID: -2911302262550762477}
   - component: {fileID: -3996412935564816706}
@@ -48,21 +47,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c72694b25d889549a35a33b3f40dc60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.01
-  findTarget: {fileID: -6592665736137441944}
---- !u!114 &-6592665736137441944
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5375642882072934333}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e97fbb6e3ded9da4193ec52fe850121f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  targetSet: {fileID: 11400000, guid: 613b5a402ff1bfa4bb85e863f1e63ac4, type: 2}
+  speed: 0.05
+  damage: 10
 --- !u!58 &-5409880624849505996
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -78,7 +64,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.03
 --- !u!50 &-2911302262550762477
 Rigidbody2D:
   serializedVersion: 4
