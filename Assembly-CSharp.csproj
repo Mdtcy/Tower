@@ -25,7 +25,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE;UNITY_2019_4_14;UNITY_2019_4;UNITY_2019;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;PLATFORM_STANDALONE;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_4_6;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;ENABLE_LEGACY_INPUT_MANAGER;UNITY_POST_PROCESSING_STACK_V2;MOREMOUNTAINS_FEEDBACKS;MOREMOUNTAINS_TOOLS;MOREMOUNTAINS_INTERFACE;MOREMOUNTAINS_INVENTORYENGINE;MOREMOUNTAINS_TOPDOWNENGINE;ODIN_INSPECTOR;ODIN_INSPECTOR_3;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;UNITY_2019_4_14;UNITY_2019_4;UNITY_2019;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;PLATFORM_STANDALONE;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_4_6;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;ENABLE_LEGACY_INPUT_MANAGER;UNITY_POST_PROCESSING_STACK_V2;MOREMOUNTAINS_FEEDBACKS;MOREMOUNTAINS_TOOLS;MOREMOUNTAINS_INTERFACE;MOREMOUNTAINS_INVENTORYENGINE;MOREMOUNTAINS_TOPDOWNENGINE;ODIN_INSPECTOR;ODIN_INSPECTOR_3;MOREMOUNTAINS_NICEVIBRATIONS;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -58,6 +58,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\MMFeedbacks\MMFeedbacks\Demos\MMFeedbacksDemo\Scripts\DemoBall.cs" />
+     <Compile Include="Assets\MMFeedbacks\MMFeedbacks\Demos\MMFeedbacksDemo\Scripts\DemoButton.cs" />
+     <Compile Include="Assets\MMFeedbacks\MMFeedbacks\Demos\MMFeedbacksDemo\Scripts\DemoGhost.cs" />
      <Compile Include="Assets\PoolKit Demos &amp; Extras\Examples\00 Shared Resources\Scripts\ResetRigidbodies.cs" />
      <Compile Include="Assets\PoolKit Demos &amp; Extras\Examples\03 Pools Across Different Scenes\Scripts\ChangeSceneCountdown.cs" />
      <Compile Include="Assets\PoolKit Demos &amp; Extras\Examples\04 PoolKit Listener Interface Example\Scripts\PoolKitListenerExample.cs" />
@@ -71,6 +74,7 @@
      <Compile Include="Assets\PoolKit Demos &amp; Extras\Examples\09 Dynamically Create Pools And Pool Items\Scripts\DynamicallyCreatePoolsAndItemsExample.cs" />
      <Compile Include="Assets\PoolKit Demos &amp; Extras\Examples\10 Raycast Despawner\Scripts\SimpleProjectileMovement.cs" />
      <Compile Include="Assets\PoolKit Demos &amp; Extras\Examples\11 Track and Despawn all Spawner instances\Scripts\SpawnerInstanceTracker.cs" />
+     <Compile Include="Assets\Scripts\Constant\PoolId.cs" />
      <Compile Include="Assets\Scripts\Constant\ZenjectId.cs" />
      <Compile Include="Assets\Scripts\Enemy.cs" />
      <Compile Include="Assets\Scripts\EnemySpawner.cs" />
@@ -88,43 +92,31 @@
      <Compile Include="Assets\Scripts\Tower.cs" />
      <Compile Include="Assets\Scripts\UI\AutoE.cs" />
      <Compile Include="Assets\Scripts\UI\FloatingText.cs" />
-     <Compile Include="Assets\TopDownEngine\ThirdParty\MoreMountains\MMFeedbacks\Demos\MMFeedbacksDemo\Scripts\DemoBall.cs" />
-     <Compile Include="Assets\TopDownEngine\ThirdParty\MoreMountains\MMFeedbacks\Demos\MMFeedbacksDemo\Scripts\DemoButton.cs" />
-     <Compile Include="Assets\TopDownEngine\ThirdParty\MoreMountains\MMFeedbacks\Demos\MMFeedbacksDemo\Scripts\DemoGhost.cs" />
-     <Compile Include="Assets\TopDownEngine\ThirdParty\Tilemap\2dExtras\GridInformation\Scripts\GridInformation.cs" />
-     <Compile Include="Assets\TopDownEngine\ThirdParty\Tilemap\2dExtras\Tiles\Animated Tile\Scripts\AnimatedTile.cs" />
-     <Compile Include="Assets\TopDownEngine\ThirdParty\Tilemap\2dExtras\Tiles\Pipeline Tile\Scripts\PipelineTile.cs" />
-     <Compile Include="Assets\TopDownEngine\ThirdParty\Tilemap\2dExtras\Tiles\Random Tile\Scripts\RandomTile.cs" />
-     <Compile Include="Assets\TopDownEngine\ThirdParty\Tilemap\2dExtras\Tiles\Rule Override Tile\Scripts\RuleOverrideTile.cs" />
-     <Compile Include="Assets\TopDownEngine\ThirdParty\Tilemap\2dExtras\Tiles\Rule Tile\Scripts\RuleTile.cs" />
-     <Compile Include="Assets\TopDownEngine\ThirdParty\Tilemap\2dExtras\Tiles\Terrain Tile\Scripts\TerrainTile.cs" />
-     <Compile Include="Assets\TopDownEngine\ThirdParty\Tilemap\2dExtras\Tiles\Weighted Random Tile\WeightedRandomTile.cs" />
+     <Compile Include="Assets\Scripts\UI\as.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
-     <None Include="Assets\TopDownEngine\ThirdParty\MoreMountains\MMInterface\Common\Shaders\GreyScale.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
-     <None Include="Assets\TopDownEngine\ThirdParty\MoreMountains\MMInterface\Common\Shaders\VerticalGradient.shader" />
-     <None Include="Assets\TopDownEngine\license.txt" />
+     <None Include="Assets\MMFeedbacks\NiceVibrations\OlderVersions\v2.0.1\NiceVibrations-v-2-0-1-readme.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
-     <None Include="Assets\TopDownEngine\ThirdParty\MoreMountains\InventoryEngine\readme.txt" />
-     <None Include="Assets\TopDownEngine\ThirdParty\MoreMountains\MMInterface\Styles\Mini\Fonts\Lato\OFL.txt" />
+     <None Include="Assets\MMFeedbacks\NiceVibrations\ThirdParty\Newtonsoft\NewtonsoftJsonLicense.txt" />
+     <None Include="Assets\MMFeedbacks\readme.txt" />
+     <None Include="Assets\MMFeedbacks\license.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
-     <None Include="Assets\TopDownEngine\ThirdParty\Tilemap\2dExtras\Tiles\Rule Tile\ScriptTemplates\NewCustomRuleTile.cs.txt" />
+     <None Include="Assets\MMFeedbacks\NiceVibrations\Common\Plugins\Android\AndroidManifest.xml" />
      <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
-     <None Include="Assets\TopDownEngine\readme.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
+     <None Include="Assets\MMFeedbacks\NiceVibrations\OlderVersions\v1.7\NiceVibrations-v-1-7-readme.txt" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
      <None Include="Assets\PoolKit Demos &amp; Extras\Demos\The PoolKit Demos - Read Me.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
-     <None Include="Assets\TopDownEngine\ThirdParty\MoreMountains\InventoryEngine\license.txt" />
-     <None Include="Assets\TopDownEngine\third-party-notices.txt" />
-     <None Include="Assets\TopDownEngine\ThirdParty\MoreMountains\MMInterface\Common\Shaders\HorizontalGradient.shader" />
+     <None Include="Assets\MMFeedbacks\NiceVibrations\readme.txt" />
+     <None Include="Assets\MMFeedbacks\NiceVibrations\license.txt" />
      <None Include="Assets\PoolKit Demos &amp; Extras\Third Party Extras\PlayMaker\PoolKit and PlayMaker READ ME.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
@@ -132,7 +124,6 @@
      <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
-     <None Include="Assets\TopDownEngine\IMPORTANT-HOW-TO-INSTALL.txt" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>D:/UnityProjects/Tower/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
@@ -438,6 +429,9 @@
  </Reference>
  <Reference Include="clipper_library">
  <HintPath>D:/UnityProjects/Tower/Library/PackageCache/com.unity.cinemachine@2.7.1/Runtime/ThirdParty/clipper_library.dll</HintPath>
+ </Reference>
+ <Reference Include="Newtonsoft.Json">
+ <HintPath>D:/UnityProjects/Tower/Assets/MMFeedbacks/NiceVibrations/ThirdParty/Newtonsoft/Newtonsoft.Json.dll</HintPath>
  </Reference>
  <Reference Include="mscorlib">
  <HintPath>D:/3DMGAME/2019.4.14f1c1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -831,17 +825,9 @@
       <Project>{8A322C3D-B85B-39CB-069E-5CF60C19F82E}</Project>
       <Name>Zenject</Name>
     </ProjectReference>
-    <ProjectReference Include="MoreMountains.Interface.csproj">
-      <Project>{D0ABE444-B3CC-39FF-01E7-C177A2D5C0C0}</Project>
-      <Name>MoreMountains.Interface</Name>
-    </ProjectReference>
     <ProjectReference Include="MoreMountains.Tools.Cinemachine.csproj">
       <Project>{AF074661-123A-AFB6-AA0F-FE2BBE74A8D6}</Project>
       <Name>MoreMountains.Tools.Cinemachine</Name>
-    </ProjectReference>
-    <ProjectReference Include="MoreMountains.Interface.Editor.csproj">
-      <Project>{AD489F85-7B70-8488-87DF-2314886806B1}</Project>
-      <Name>MoreMountains.Interface.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="MoreMountains.Tools.Feedbacks.Editor.csproj">
       <Project>{386A5D09-4D76-AF40-96A1-9CB746CC71AC}</Project>
@@ -851,10 +837,6 @@
       <Project>{5DDCB7D6-80F1-6669-6E98-922EFB2E424D}</Project>
       <Name>MoreMountains.Feedbacks.MMTools</Name>
     </ProjectReference>
-    <ProjectReference Include="MoreMountains.TopDownEngine.Editor.csproj">
-      <Project>{2CADBB76-CCC5-B5C8-2C37-0F81C512CB02}</Project>
-      <Name>MoreMountains.TopDownEngine.Editor</Name>
-    </ProjectReference>
     <ProjectReference Include="MoreMountains.Tools.Editor.csproj">
       <Project>{A24F14E1-8FF8-98B0-62C8-574EE5161816}</Project>
       <Name>MoreMountains.Tools.Editor</Name>
@@ -862,18 +844,6 @@
     <ProjectReference Include="MoreMountains.Tools.Feedbacks.csproj">
       <Project>{B7B2104E-B100-95AA-DDD7-DF3AE6A4F3F3}</Project>
       <Name>MoreMountains.Tools.Feedbacks</Name>
-    </ProjectReference>
-    <ProjectReference Include="MoreMountains.InventoryEngine.Demos.csproj">
-      <Project>{EE18003C-D8F6-35EA-91D9-0117341874E8}</Project>
-      <Name>MoreMountains.InventoryEngine.Demos</Name>
-    </ProjectReference>
-    <ProjectReference Include="MoreMountains.TopDownEngine.Cinemachine.csproj">
-      <Project>{0A7C2E90-D829-4E1E-BF52-71A7C4F64A11}</Project>
-      <Name>MoreMountains.TopDownEngine.Cinemachine</Name>
-    </ProjectReference>
-    <ProjectReference Include="MoreMountains.TopDownEngine.PostProcessing.csproj">
-      <Project>{1CD1EF31-78BC-0528-699B-85FC718EEB53}</Project>
-      <Name>MoreMountains.TopDownEngine.PostProcessing</Name>
     </ProjectReference>
     <ProjectReference Include="MoreMountains.Feedbacks.csproj">
       <Project>{3479FD29-9923-29A8-F35B-3F1D8F9E7425}</Project>
@@ -883,33 +853,29 @@
       <Project>{D20CF43F-1D2A-2832-44A0-4144619A2C56}</Project>
       <Name>MoreMountains.Feedbacks.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="NavMeshComponentsEditor.csproj">
-      <Project>{970F6534-9189-1A0D-C289-9176A0222371}</Project>
-      <Name>NavMeshComponentsEditor</Name>
-    </ProjectReference>
-    <ProjectReference Include="NavMeshComponents.csproj">
-      <Project>{0DE37DE2-86A9-1E02-9223-996CB1F93CF9}</Project>
-      <Name>NavMeshComponents</Name>
+    <ProjectReference Include="MoreMountains.NiceVibrations.Haptics.csproj">
+      <Project>{ED335E79-5648-F5CF-DDC6-967A50FDEF94}</Project>
+      <Name>MoreMountains.NiceVibrations.Haptics</Name>
     </ProjectReference>
     <ProjectReference Include="MoreMountains.Tools.csproj">
       <Project>{E6F9A8C2-DCF5-1E58-971F-763C484D4FEE}</Project>
       <Name>MoreMountains.Tools</Name>
     </ProjectReference>
-    <ProjectReference Include="MoreMountains.InventoryEngine.csproj">
-      <Project>{33323ABB-4003-A05A-4D76-99D8C752CD92}</Project>
-      <Name>MoreMountains.InventoryEngine</Name>
+    <ProjectReference Include="MoreMountains.Feedbacks.NiceVibrations.csproj">
+      <Project>{9849D054-100D-312C-A79A-08A8FDE0BD80}</Project>
+      <Name>MoreMountains.Feedbacks.NiceVibrations</Name>
     </ProjectReference>
-    <ProjectReference Include="MoreMountains.InventoryEngine.Editor.csproj">
-      <Project>{05377512-3218-CAE0-9768-A9C698B8C04A}</Project>
-      <Name>MoreMountains.InventoryEngine.Editor</Name>
+    <ProjectReference Include="MoreMountains.NiceVibrations.csproj">
+      <Project>{374F25F3-8259-3685-72B5-91660EF08240}</Project>
+      <Name>MoreMountains.NiceVibrations</Name>
     </ProjectReference>
-    <ProjectReference Include="MoreMountains.TopDownEngine.csproj">
-      <Project>{C2057A2D-C9EE-F2B4-5736-E5EF1EE9EBEA}</Project>
-      <Name>MoreMountains.TopDownEngine</Name>
+    <ProjectReference Include="MoreMountains.NiceVibrations.Editor.csproj">
+      <Project>{D40691B5-F530-85C0-8A51-150F233C4527}</Project>
+      <Name>MoreMountains.NiceVibrations.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="MoreMountains.TopDownEngine.Cinemachine.Editor.csproj">
-      <Project>{394DE7DE-1529-64C6-ACA3-BC8187213F20}</Project>
-      <Name>MoreMountains.TopDownEngine.Cinemachine.Editor</Name>
+    <ProjectReference Include="MoreMountains.NiceVibrations.Demos.csproj">
+      <Project>{BC083B22-C8C9-1D72-CEFB-2737AD607CA3}</Project>
+      <Name>MoreMountains.NiceVibrations.Demos</Name>
     </ProjectReference>
     <ProjectReference Include="MoreMountains.Feedbacks.Cinemachine.csproj">
       <Project>{DF4CF86E-31B7-964E-C319-A2A45494BE16}</Project>
@@ -918,6 +884,10 @@
     <ProjectReference Include="MoreMountains.Feedbacks.PostProcessing.csproj">
       <Project>{9B344DF8-ACCB-A34E-104E-9ED959CCD9C0}</Project>
       <Name>MoreMountains.Feedbacks.PostProcessing</Name>
+    </ProjectReference>
+    <ProjectReference Include="BeauRoutine.csproj">
+      <Project>{C935AD9F-CC04-F7CA-F9DC-2258B00ACE8A}</Project>
+      <Name>BeauRoutine</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

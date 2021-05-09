@@ -25,7 +25,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE;UNITY_2019_4_14;UNITY_2019_4;UNITY_2019;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;PLATFORM_STANDALONE;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_4_6;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;ENABLE_LEGACY_INPUT_MANAGER;UNITY_POST_PROCESSING_STACK_V2;MOREMOUNTAINS_FEEDBACKS;MOREMOUNTAINS_TOOLS;MOREMOUNTAINS_INTERFACE;MOREMOUNTAINS_INVENTORYENGINE;MOREMOUNTAINS_TOPDOWNENGINE;ODIN_INSPECTOR;ODIN_INSPECTOR_3;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;UNITY_2019_4_14;UNITY_2019_4;UNITY_2019;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;PLATFORM_STANDALONE;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_4_6;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;ENABLE_LEGACY_INPUT_MANAGER;UNITY_POST_PROCESSING_STACK_V2;MOREMOUNTAINS_FEEDBACKS;MOREMOUNTAINS_TOOLS;MOREMOUNTAINS_INTERFACE;MOREMOUNTAINS_INVENTORYENGINE;MOREMOUNTAINS_TOPDOWNENGINE;ODIN_INSPECTOR;ODIN_INSPECTOR_3;MOREMOUNTAINS_NICEVIBRATIONS;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -58,82 +58,82 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\TopDownEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Core\MMFeedback.cs" />
-     <Compile Include="Assets\TopDownEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Core\MMFeedbackTiming.cs" />
-     <Compile Include="Assets\TopDownEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Core\MMFeedbacks.cs" />
-     <Compile Include="Assets\TopDownEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Core\MMFeedbacksHelpers.cs" />
-     <Compile Include="Assets\TopDownEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Core\MMFeedbacksInspectorColors.cs" />
-     <Compile Include="Assets\TopDownEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Core\MMShaker.cs" />
-     <Compile Include="Assets\TopDownEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Core\ObjectPool\MMMiniObjectPooler.cs" />
-     <Compile Include="Assets\TopDownEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Core\ObjectPool\MMMiniPoolableObject.cs" />
-     <Compile Include="Assets\TopDownEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMFeedbackAnimation.cs" />
-     <Compile Include="Assets\TopDownEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMFeedbackAudioFilterDistortion.cs" />
-     <Compile Include="Assets\TopDownEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMFeedbackAudioFilterEcho.cs" />
-     <Compile Include="Assets\TopDownEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMFeedbackAudioFilterHighPass.cs" />
-     <Compile Include="Assets\TopDownEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMFeedbackAudioFilterLowPass.cs" />
-     <Compile Include="Assets\TopDownEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMFeedbackAudioFilterReverb.cs" />
-     <Compile Include="Assets\TopDownEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMFeedbackAudioSource.cs" />
-     <Compile Include="Assets\TopDownEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMFeedbackAudioSourcePitch.cs" />
-     <Compile Include="Assets\TopDownEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMFeedbackAudioSourceStereoPan.cs" />
-     <Compile Include="Assets\TopDownEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMFeedbackAudioSourceVolume.cs" />
-     <Compile Include="Assets\TopDownEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMFeedbackCameraClippingPlanes.cs" />
-     <Compile Include="Assets\TopDownEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMFeedbackCameraFieldOfView.cs" />
-     <Compile Include="Assets\TopDownEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMFeedbackCameraOrthographicSize.cs" />
-     <Compile Include="Assets\TopDownEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMFeedbackCameraShake.cs" />
-     <Compile Include="Assets\TopDownEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMFeedbackCameraZoom.cs" />
-     <Compile Include="Assets\TopDownEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMFeedbackEnable.cs" />
-     <Compile Include="Assets\TopDownEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMFeedbackEvents.cs" />
-     <Compile Include="Assets\TopDownEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMFeedbackFeedbacks.cs" />
-     <Compile Include="Assets\TopDownEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMFeedbackFlash.cs" />
-     <Compile Include="Assets\TopDownEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMFeedbackFlicker.cs" />
-     <Compile Include="Assets\TopDownEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMFeedbackFreezeFrame.cs" />
-     <Compile Include="Assets\TopDownEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMFeedbackHoldingPause.cs" />
-     <Compile Include="Assets\TopDownEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMFeedbackImage.cs" />
-     <Compile Include="Assets\TopDownEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMFeedbackInstantiateObject.cs" />
-     <Compile Include="Assets\TopDownEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMFeedbackLight.cs" />
-     <Compile Include="Assets\TopDownEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMFeedbackLooper.cs" />
-     <Compile Include="Assets\TopDownEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMFeedbackLooperStart.cs" />
-     <Compile Include="Assets\TopDownEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMFeedbackMaterial.cs" />
-     <Compile Include="Assets\TopDownEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMFeedbackParticles.cs" />
-     <Compile Include="Assets\TopDownEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMFeedbackParticlesInstantiation.cs" />
-     <Compile Include="Assets\TopDownEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMFeedbackPause.cs" />
-     <Compile Include="Assets\TopDownEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMFeedbackPosition.cs" />
-     <Compile Include="Assets\TopDownEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMFeedbackRigidbody.cs" />
-     <Compile Include="Assets\TopDownEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMFeedbackRigidbody2D.cs" />
-     <Compile Include="Assets\TopDownEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMFeedbackRotation.cs" />
-     <Compile Include="Assets\TopDownEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMFeedbackScale.cs" />
-     <Compile Include="Assets\TopDownEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMFeedbackSetActive.cs" />
-     <Compile Include="Assets\TopDownEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMFeedbackSound.cs" />
-     <Compile Include="Assets\TopDownEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMFeedbackSpriteRenderer.cs" />
-     <Compile Include="Assets\TopDownEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMFeedbackTimescaleModifier.cs" />
-     <Compile Include="Assets\TopDownEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMFeedbackWiggle.cs" />
-     <Compile Include="Assets\TopDownEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feel\MMBlink.cs" />
-     <Compile Include="Assets\TopDownEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Sequencing\Scripts\MMAudioSourceSequencer.cs" />
-     <Compile Include="Assets\TopDownEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Sequencing\Scripts\MMFeedbacksSequencer.cs" />
-     <Compile Include="Assets\TopDownEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Sequencing\Scripts\MMInputSequenceRecorder.cs" />
-     <Compile Include="Assets\TopDownEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Sequencing\Scripts\MMSequence.cs" />
-     <Compile Include="Assets\TopDownEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Sequencing\Scripts\MMSequencer.cs" />
-     <Compile Include="Assets\TopDownEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Sequencing\Scripts\MMSoundSequencer.cs" />
-     <Compile Include="Assets\TopDownEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Shakers\MMAudioFilterDistortionShaker.cs" />
-     <Compile Include="Assets\TopDownEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Shakers\MMAudioFilterEchoShaker.cs" />
-     <Compile Include="Assets\TopDownEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Shakers\MMAudioFilterHighPassShaker.cs" />
-     <Compile Include="Assets\TopDownEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Shakers\MMAudioFilterLowPassShaker.cs" />
-     <Compile Include="Assets\TopDownEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Shakers\MMAudioFilterReverbShaker.cs" />
-     <Compile Include="Assets\TopDownEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Shakers\MMAudioSourcePitchShaker.cs" />
-     <Compile Include="Assets\TopDownEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Shakers\MMAudioSourceStereoPanShaker.cs" />
-     <Compile Include="Assets\TopDownEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Shakers\MMAudioSourceVolumeShaker.cs" />
-     <Compile Include="Assets\TopDownEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Shakers\MMCameraClippingPlanesShaker.cs" />
-     <Compile Include="Assets\TopDownEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Shakers\MMCameraFieldOfViewShaker.cs" />
-     <Compile Include="Assets\TopDownEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Shakers\MMCameraOrthographicSizeShaker.cs" />
-     <Compile Include="Assets\TopDownEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Shakers\MMCameraShaker.cs" />
-     <Compile Include="Assets\TopDownEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Shakers\MMCameraZoom.cs" />
-     <Compile Include="Assets\TopDownEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Shakers\MMFeedbacksShaker.cs" />
-     <Compile Include="Assets\TopDownEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Shakers\MMFlash.cs" />
-     <Compile Include="Assets\TopDownEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Shakers\MMLightShaker.cs" />
-     <Compile Include="Assets\TopDownEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Shakers\MMSpriteRendererShaker.cs" />
-     <Compile Include="Assets\TopDownEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Shakers\MMTimeManager.cs" />
-     <Compile Include="Assets\TopDownEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Shakers\MMWiggle.cs" />
-     <None Include="Assets\TopDownEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\MoreMountains.Feedbacks.asmdef" />
+     <Compile Include="Assets\MMFeedbacks\MMFeedbacks\MMFeedbacks\Core\MMFeedback.cs" />
+     <Compile Include="Assets\MMFeedbacks\MMFeedbacks\MMFeedbacks\Core\MMFeedbackTiming.cs" />
+     <Compile Include="Assets\MMFeedbacks\MMFeedbacks\MMFeedbacks\Core\MMFeedbacks.cs" />
+     <Compile Include="Assets\MMFeedbacks\MMFeedbacks\MMFeedbacks\Core\MMFeedbacksHelpers.cs" />
+     <Compile Include="Assets\MMFeedbacks\MMFeedbacks\MMFeedbacks\Core\MMFeedbacksInspectorColors.cs" />
+     <Compile Include="Assets\MMFeedbacks\MMFeedbacks\MMFeedbacks\Core\MMShaker.cs" />
+     <Compile Include="Assets\MMFeedbacks\MMFeedbacks\MMFeedbacks\Core\ObjectPool\MMMiniObjectPooler.cs" />
+     <Compile Include="Assets\MMFeedbacks\MMFeedbacks\MMFeedbacks\Core\ObjectPool\MMMiniPoolableObject.cs" />
+     <Compile Include="Assets\MMFeedbacks\MMFeedbacks\MMFeedbacks\Feedbacks\MMFeedbackAnimation.cs" />
+     <Compile Include="Assets\MMFeedbacks\MMFeedbacks\MMFeedbacks\Feedbacks\MMFeedbackAudioFilterDistortion.cs" />
+     <Compile Include="Assets\MMFeedbacks\MMFeedbacks\MMFeedbacks\Feedbacks\MMFeedbackAudioFilterEcho.cs" />
+     <Compile Include="Assets\MMFeedbacks\MMFeedbacks\MMFeedbacks\Feedbacks\MMFeedbackAudioFilterHighPass.cs" />
+     <Compile Include="Assets\MMFeedbacks\MMFeedbacks\MMFeedbacks\Feedbacks\MMFeedbackAudioFilterLowPass.cs" />
+     <Compile Include="Assets\MMFeedbacks\MMFeedbacks\MMFeedbacks\Feedbacks\MMFeedbackAudioFilterReverb.cs" />
+     <Compile Include="Assets\MMFeedbacks\MMFeedbacks\MMFeedbacks\Feedbacks\MMFeedbackAudioSource.cs" />
+     <Compile Include="Assets\MMFeedbacks\MMFeedbacks\MMFeedbacks\Feedbacks\MMFeedbackAudioSourcePitch.cs" />
+     <Compile Include="Assets\MMFeedbacks\MMFeedbacks\MMFeedbacks\Feedbacks\MMFeedbackAudioSourceStereoPan.cs" />
+     <Compile Include="Assets\MMFeedbacks\MMFeedbacks\MMFeedbacks\Feedbacks\MMFeedbackAudioSourceVolume.cs" />
+     <Compile Include="Assets\MMFeedbacks\MMFeedbacks\MMFeedbacks\Feedbacks\MMFeedbackCameraClippingPlanes.cs" />
+     <Compile Include="Assets\MMFeedbacks\MMFeedbacks\MMFeedbacks\Feedbacks\MMFeedbackCameraFieldOfView.cs" />
+     <Compile Include="Assets\MMFeedbacks\MMFeedbacks\MMFeedbacks\Feedbacks\MMFeedbackCameraOrthographicSize.cs" />
+     <Compile Include="Assets\MMFeedbacks\MMFeedbacks\MMFeedbacks\Feedbacks\MMFeedbackCameraShake.cs" />
+     <Compile Include="Assets\MMFeedbacks\MMFeedbacks\MMFeedbacks\Feedbacks\MMFeedbackCameraZoom.cs" />
+     <Compile Include="Assets\MMFeedbacks\MMFeedbacks\MMFeedbacks\Feedbacks\MMFeedbackEnable.cs" />
+     <Compile Include="Assets\MMFeedbacks\MMFeedbacks\MMFeedbacks\Feedbacks\MMFeedbackEvents.cs" />
+     <Compile Include="Assets\MMFeedbacks\MMFeedbacks\MMFeedbacks\Feedbacks\MMFeedbackFeedbacks.cs" />
+     <Compile Include="Assets\MMFeedbacks\MMFeedbacks\MMFeedbacks\Feedbacks\MMFeedbackFlash.cs" />
+     <Compile Include="Assets\MMFeedbacks\MMFeedbacks\MMFeedbacks\Feedbacks\MMFeedbackFlicker.cs" />
+     <Compile Include="Assets\MMFeedbacks\MMFeedbacks\MMFeedbacks\Feedbacks\MMFeedbackFreezeFrame.cs" />
+     <Compile Include="Assets\MMFeedbacks\MMFeedbacks\MMFeedbacks\Feedbacks\MMFeedbackHoldingPause.cs" />
+     <Compile Include="Assets\MMFeedbacks\MMFeedbacks\MMFeedbacks\Feedbacks\MMFeedbackImage.cs" />
+     <Compile Include="Assets\MMFeedbacks\MMFeedbacks\MMFeedbacks\Feedbacks\MMFeedbackInstantiateObject.cs" />
+     <Compile Include="Assets\MMFeedbacks\MMFeedbacks\MMFeedbacks\Feedbacks\MMFeedbackLight.cs" />
+     <Compile Include="Assets\MMFeedbacks\MMFeedbacks\MMFeedbacks\Feedbacks\MMFeedbackLooper.cs" />
+     <Compile Include="Assets\MMFeedbacks\MMFeedbacks\MMFeedbacks\Feedbacks\MMFeedbackLooperStart.cs" />
+     <Compile Include="Assets\MMFeedbacks\MMFeedbacks\MMFeedbacks\Feedbacks\MMFeedbackMaterial.cs" />
+     <Compile Include="Assets\MMFeedbacks\MMFeedbacks\MMFeedbacks\Feedbacks\MMFeedbackParticles.cs" />
+     <Compile Include="Assets\MMFeedbacks\MMFeedbacks\MMFeedbacks\Feedbacks\MMFeedbackParticlesInstantiation.cs" />
+     <Compile Include="Assets\MMFeedbacks\MMFeedbacks\MMFeedbacks\Feedbacks\MMFeedbackPause.cs" />
+     <Compile Include="Assets\MMFeedbacks\MMFeedbacks\MMFeedbacks\Feedbacks\MMFeedbackPosition.cs" />
+     <Compile Include="Assets\MMFeedbacks\MMFeedbacks\MMFeedbacks\Feedbacks\MMFeedbackRigidbody.cs" />
+     <Compile Include="Assets\MMFeedbacks\MMFeedbacks\MMFeedbacks\Feedbacks\MMFeedbackRigidbody2D.cs" />
+     <Compile Include="Assets\MMFeedbacks\MMFeedbacks\MMFeedbacks\Feedbacks\MMFeedbackRotation.cs" />
+     <Compile Include="Assets\MMFeedbacks\MMFeedbacks\MMFeedbacks\Feedbacks\MMFeedbackScale.cs" />
+     <Compile Include="Assets\MMFeedbacks\MMFeedbacks\MMFeedbacks\Feedbacks\MMFeedbackSetActive.cs" />
+     <Compile Include="Assets\MMFeedbacks\MMFeedbacks\MMFeedbacks\Feedbacks\MMFeedbackSound.cs" />
+     <Compile Include="Assets\MMFeedbacks\MMFeedbacks\MMFeedbacks\Feedbacks\MMFeedbackSpriteRenderer.cs" />
+     <Compile Include="Assets\MMFeedbacks\MMFeedbacks\MMFeedbacks\Feedbacks\MMFeedbackTimescaleModifier.cs" />
+     <Compile Include="Assets\MMFeedbacks\MMFeedbacks\MMFeedbacks\Feedbacks\MMFeedbackWiggle.cs" />
+     <Compile Include="Assets\MMFeedbacks\MMFeedbacks\MMFeedbacks\Feel\MMBlink.cs" />
+     <Compile Include="Assets\MMFeedbacks\MMFeedbacks\MMFeedbacks\Sequencing\Scripts\MMAudioSourceSequencer.cs" />
+     <Compile Include="Assets\MMFeedbacks\MMFeedbacks\MMFeedbacks\Sequencing\Scripts\MMFeedbacksSequencer.cs" />
+     <Compile Include="Assets\MMFeedbacks\MMFeedbacks\MMFeedbacks\Sequencing\Scripts\MMInputSequenceRecorder.cs" />
+     <Compile Include="Assets\MMFeedbacks\MMFeedbacks\MMFeedbacks\Sequencing\Scripts\MMSequence.cs" />
+     <Compile Include="Assets\MMFeedbacks\MMFeedbacks\MMFeedbacks\Sequencing\Scripts\MMSequencer.cs" />
+     <Compile Include="Assets\MMFeedbacks\MMFeedbacks\MMFeedbacks\Sequencing\Scripts\MMSoundSequencer.cs" />
+     <Compile Include="Assets\MMFeedbacks\MMFeedbacks\MMFeedbacks\Shakers\MMAudioFilterDistortionShaker.cs" />
+     <Compile Include="Assets\MMFeedbacks\MMFeedbacks\MMFeedbacks\Shakers\MMAudioFilterEchoShaker.cs" />
+     <Compile Include="Assets\MMFeedbacks\MMFeedbacks\MMFeedbacks\Shakers\MMAudioFilterHighPassShaker.cs" />
+     <Compile Include="Assets\MMFeedbacks\MMFeedbacks\MMFeedbacks\Shakers\MMAudioFilterLowPassShaker.cs" />
+     <Compile Include="Assets\MMFeedbacks\MMFeedbacks\MMFeedbacks\Shakers\MMAudioFilterReverbShaker.cs" />
+     <Compile Include="Assets\MMFeedbacks\MMFeedbacks\MMFeedbacks\Shakers\MMAudioSourcePitchShaker.cs" />
+     <Compile Include="Assets\MMFeedbacks\MMFeedbacks\MMFeedbacks\Shakers\MMAudioSourceStereoPanShaker.cs" />
+     <Compile Include="Assets\MMFeedbacks\MMFeedbacks\MMFeedbacks\Shakers\MMAudioSourceVolumeShaker.cs" />
+     <Compile Include="Assets\MMFeedbacks\MMFeedbacks\MMFeedbacks\Shakers\MMCameraClippingPlanesShaker.cs" />
+     <Compile Include="Assets\MMFeedbacks\MMFeedbacks\MMFeedbacks\Shakers\MMCameraFieldOfViewShaker.cs" />
+     <Compile Include="Assets\MMFeedbacks\MMFeedbacks\MMFeedbacks\Shakers\MMCameraOrthographicSizeShaker.cs" />
+     <Compile Include="Assets\MMFeedbacks\MMFeedbacks\MMFeedbacks\Shakers\MMCameraShaker.cs" />
+     <Compile Include="Assets\MMFeedbacks\MMFeedbacks\MMFeedbacks\Shakers\MMCameraZoom.cs" />
+     <Compile Include="Assets\MMFeedbacks\MMFeedbacks\MMFeedbacks\Shakers\MMFeedbacksShaker.cs" />
+     <Compile Include="Assets\MMFeedbacks\MMFeedbacks\MMFeedbacks\Shakers\MMFlash.cs" />
+     <Compile Include="Assets\MMFeedbacks\MMFeedbacks\MMFeedbacks\Shakers\MMLightShaker.cs" />
+     <Compile Include="Assets\MMFeedbacks\MMFeedbacks\MMFeedbacks\Shakers\MMSpriteRendererShaker.cs" />
+     <Compile Include="Assets\MMFeedbacks\MMFeedbacks\MMFeedbacks\Shakers\MMTimeManager.cs" />
+     <Compile Include="Assets\MMFeedbacks\MMFeedbacks\MMFeedbacks\Shakers\MMWiggle.cs" />
+     <None Include="Assets\MMFeedbacks\MMFeedbacks\MMFeedbacks\MoreMountains.Feedbacks.asmdef" />
  <Reference Include="UnityEditor.UI">
  <HintPath>D:/UnityProjects/Tower/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
@@ -364,6 +364,12 @@
  </Reference>
  <Reference Include="clipper_library">
  <HintPath>D:/UnityProjects/Tower/Library/PackageCache/com.unity.cinemachine@2.7.1/Runtime/ThirdParty/clipper_library.dll</HintPath>
+ </Reference>
+ <Reference Include="Newtonsoft.Json">
+ <HintPath>D:/UnityProjects/Tower/Assets/MMFeedbacks/NiceVibrations/ThirdParty/Newtonsoft/Newtonsoft.Json.dll</HintPath>
+ </Reference>
+ <Reference Include="Logging">
+ <HintPath>D:/UnityProjects/Tower/Assets/FavoritesWindow/Editor/Logging.dll</HintPath>
  </Reference>
  <Reference Include="mscorlib">
  <HintPath>D:/3DMGAME/2019.4.14f1c1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>

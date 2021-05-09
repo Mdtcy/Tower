@@ -6,4 +6,7 @@ public static class ZenjectId
 {
     public const string EnemySet = "EnemySet";
     public const string TowerSet = "TowerSet";
+
+    // pool
+    // public const string FloatingTextPool = "FloatingTextPool";
 }
